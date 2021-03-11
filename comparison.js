@@ -30,19 +30,54 @@ if (8 == r) {
 } else {
     console.log("n is equal to 8");
 }
+
 //nesting (add one more if)
 
 let planetOne = "mars";
 let planetTwo = "pluto";
-let thoseArePlanet = true;
+let theseArePlanet = true;
 
 if ("mars"==planetOne) {
     if("pluto"==planetTwo) {
+        if (theseArePlanet) {
             console.log("Mars and Pluto are planets");
         } else {
             console.log("Those are not planets");
         }
     }
+}
 
+//or
+
+let planetThree = "mercury";
+let planetFour = "venus";
+let thoseArePlanets = true;
+
+if ("mercury"==planetThree && "venus"==planetFour && thoseArePlanets) {
+    console.log("Mars and Venus are planets");
+} else {
+    console.log("Those are not planets");
+}
     
+// or ||
+var c = 8;
+if (c < 10 ) {
+    if ( 2 == c || 3 == c || 5 == c || 7 == c) {
+        console.log("This number", c, "is smaller than 10 and its a prime number");
+    } else {
+        console.log("This number", c, "is smaller than 10 and its a prime number");
+    }
+} else {
+    console.log("This number", c, "is greater than 10");
+}
 
+var d = 7;
+if (d < 11 ) {
+    if ( 2 == d || 3 == d || 5 == d || 7 == d) {
+        console.log("This number", d, "is greater than 10 and its not a prime number");
+    } else {
+        console.log("This number", d, "is smaller than 11 and its a prime number");
+    }
+} else {
+    console.log("This number", d, "is greater than 11");
+}
