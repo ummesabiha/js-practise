@@ -30,3 +30,19 @@ if (8 == r) {
 } else {
     console.log("n is equal to 8");
 }
+//nesting (add one more if)
+
+let planetOne = "mars";
+let planetTwo = "pluto";
+let thoseArePlanet = true;
+
+if ("mars"==planetOne) {
+    if("pluto"==planetTwo) {
+            console.log("Mars and Pluto are planets");
+        } else {
+            console.log("Those are not planets");
+        }
+    }
+
+    
+
