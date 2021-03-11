@@ -19,8 +19,13 @@
 // x = ++y; // y = y + 1;  x = y;
 // console.log("x",x,"y",y);
 
+
 // assignment operators
 
-let x = 7;
-x += 2; // x = x + 2;
-console.log(x);
+// let x = 8;
+// x += 2; // x = x + 2;
+// x -= 1; // x = x - 1;
+// x *= 3; // x = x * 3;
+// x /= 2; // x = x / 2;
+// x %= 3; // x = x % 3;
+// console.log(x);
