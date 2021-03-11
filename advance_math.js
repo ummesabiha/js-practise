@@ -10,11 +10,17 @@
 // x = y++;  //x= y; y = y + 1;
 // console.log("x",x,"y",y);
 
-let x;
-let y = 9;
+// let x;
+// let y = 9;
 // x = y;
 // y = y + 1;
 // console.log("x",x,"y",y);
 
-x = ++y; // y = y + 1;  x = y;
-console.log("x",x,"y",y);
+// x = ++y; // y = y + 1;  x = y;
+// console.log("x",x,"y",y);
+
+// assignment operators
+
+let x = 7;
+x += 2; // x = x + 2;
+console.log(x);
