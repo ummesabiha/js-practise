@@ -16,3 +16,4 @@ var pencil = 5;
 var pen = 5%2;
 console.log(pen);
 
+ 
