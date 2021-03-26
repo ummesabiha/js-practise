@@ -33,3 +33,5 @@ while (true) {
     }
     c++
 }
+
+// do while 

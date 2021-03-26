@@ -1,31 +1,30 @@
-// let a = 6;
-// a++; // a = a + 1
-// console.log(a);
-// let b = 5;
-// b --;
-// console.log(b);
+let a = 6;
+a++; // a = a + 1
+console.log(a);
+let b = 5;
+b --;
+console.log(b);
 
-// var x;
-// var y = 9;
-// x = y++;  //x= y; y = y + 1;
-// console.log("x",x,"y",y);
+var d = 9;
+c = d++;  //c= d; c = d + 1;
+console.log("c",c,"d",d);
 
-// let x;
-// let y = 9;
-// x = y;
-// y = y + 1;
-// console.log("x",x,"y",y);
 
-// x = ++y; // y = y + 1;  x = y;
-// console.log("x",x,"y",y);
+let y = 9;
+x = y;
+y = y + 1;
+console.log("x",x,"y",y);
+
+x = ++y; // y = y + 1;  x = y;
+console.log("x",x,"y",y);
 
 
 // assignment operators
 
-// let x = 8;
+let e = 8;
 // x += 2; // x = x + 2;
 // x -= 1; // x = x - 1;
 // x *= 3; // x = x * 3;
 // x /= 2; // x = x / 2;
 // x %= 3; // x = x % 3;
-// console.log(x);
+console.log(e);

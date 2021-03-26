@@ -34,3 +34,4 @@ let product = "Egg";
 let numberOfEgg = 7;
 let eggPrice = 9;
  console.log("I bought", numberOfEgg, product,". And the total cost is", eggPrice * numberOfEgg);
+4567890
