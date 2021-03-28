@@ -53,3 +53,25 @@ let days  = [
             ];
     let lists = days.splice(1,4);
     console.log(days,lists);
+
+    // array copy
+
+    let toy = [
+        "Ball", // 0 = -6
+        "Doll",  //  1 = -5
+        "Train", // 2 = -4
+        "Teddy", // 3 = -3
+        "Rubber Duck", // 4 = -2
+        "Kite" // 5 = -1
+    ]
+    
+    // deep copy
+    // let toy2 = toy;
+    // toy2[2] = "Bike";
+    // console.log(toy,toy2);
+
+
+    //shallow copy
+    let toy2 = toy.slice();
+    toy2[3] = "Airplane";
+    console.log(toy,toy2);
