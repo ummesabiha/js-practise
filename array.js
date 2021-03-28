@@ -86,3 +86,21 @@ let days  = [
     // OR
     let daysOfWeek = [].concat(daysOfWeek1, daysOfWeek2, daysOfWeek3);
     console.log(daysOfWeek);
+
+    // array loop
+
+    let bird = ["Bubba", "Scruffy", "Baldy", "Screech", "Zippy", "Plucky",
+        "Daffy", "Flossy"];
+    // let length = bird.length;
+    for (let i = 0; i <bird.length ; i ++) {
+        console.log("Element at", i , "offset is", bird [i])
+    }
+    // or
+    for (i in bird) {
+        console.log("Element at", i, "offset is", bird[i])
+    }
+    // reverse
+    // let length = bird.length;
+    for (let i = (bird.length-1); i>=0; i--) { 
+        console.log("Element", i , "offset is", bird[i])
+    }
