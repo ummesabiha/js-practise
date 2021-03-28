@@ -75,3 +75,14 @@ let days  = [
     let toy2 = toy.slice();
     toy2[3] = "Airplane";
     console.log(toy,toy2);
+
+    // add array
+
+    let daysOfWeek1 = ["Sunday", "Monday", "Tuesday",];
+    let daysOfWeek2 = ["Wednesday", "Thursday", "Friday"];
+    let daysOfWeek3 = ["Saturday"];
+
+    // let daysOfWeek = daysOfWeek1.concat(daysOfWeek2,daysOfWeek3);
+    // OR
+    let daysOfWeek = [].concat(daysOfWeek1, daysOfWeek2, daysOfWeek3);
+    console.log(daysOfWeek);
