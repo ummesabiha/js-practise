@@ -37,6 +37,19 @@ let day  = [
             "Thursday", // 5 = -2
             "Friday" // 6 = -1
                     ];
-let list = day.slice(-2); //slice from this
+// let list = day.slice(-2); //slice from this
+let list =  day.slice(-6, -2);
 
 console.log(day,list);
+
+let days  = [
+    "Saturday", // 0 = -7
+    "Sunday", // 1 = -6
+    "Monday", // 2 = -5
+    "Tuesday", // 3 = -4
+    "Wednesday", // 4 -3
+    "Thursday", // 5 = -2
+    "Friday" // 6 = -1
+            ];
+    let lists = days.splice(1,4);
+    console.log(days,lists);
