@@ -104,3 +104,24 @@ let days  = [
     for (let i = (bird.length-1); i>=0; i--) { 
         console.log("Element", i , "offset is", bird[i])
     }
+
+
+    // sequence 
+
+    let list4 = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ]
+
+    list4.sort();
+    console.log(list4)
