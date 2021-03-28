@@ -137,7 +137,22 @@ let days  = [
     console.log(a,b);
 
     // OR
-
     let e = 2, f = 5; //here e means a and f means b
     [e, f] = [e,f];
     console.log(e,f);
+
+    let list6 = [1, 6, 5, 57, 220, 57, 84, 8005, 72, 24, 6, 25, 00, 10, 50, 84];
+    // list6.sort();
+    // console.log(list6);
+
+    let length = list6.length-1;
+
+    for (let i = 0; i < length; i++) {
+        for (let j = 0; j < length; j++) {
+            if ( list6 [j] > list6 [j+1]) {
+            [list6[j], list6[j+1] ] = [list6 [j+1], list6[j] ];
+            }
+        }
+    }
+
+    console.log(list6);
