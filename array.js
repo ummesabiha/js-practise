@@ -135,3 +135,9 @@ let days  = [
         a = b;
         b = c;
     console.log(a,b);
+
+    // OR
+
+    let e = 2, f = 5; //here e means a and f means b
+    [e, f] = [e,f];
+    console.log(e,f);
