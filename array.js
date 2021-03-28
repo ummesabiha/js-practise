@@ -123,5 +123,15 @@ let days  = [
         "December"
     ]
 
-    list4.sort();
-    console.log(list4)
+    list4.sort(); // display sequence;
+    console.log(list4);
+
+    let list5 = [1, 6, 5, 57, 224, 6, 25, 0, 10, 50, 84];
+    list5.sort();
+    console.log(list5);
+
+    let a = 1, b = 6; //reverse number
+    let c = a;
+        a = b;
+        b = c;
+    console.log(a,b);
