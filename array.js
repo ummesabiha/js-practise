@@ -156,6 +156,7 @@ let days  = [
 
     console.log(list6);
 
+    // nesting array
     let year2 = [
         ["January", "February", "March"],
         ["April", "May"],
