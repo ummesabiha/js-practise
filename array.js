@@ -70,7 +70,6 @@ let days  = [
     // toy2[2] = "Bike";
     // console.log(toy,toy2);
 
-
     //shallow copy
     let toy2 = toy.slice();
     toy2[3] = "Airplane";
@@ -156,3 +155,17 @@ let days  = [
     }
 
     console.log(list6);
+
+    let year2 = [
+        ["January", "February", "March"],
+        ["April", "May"],
+        ["June", "July", "August"]
+    ]
+
+    for (let i = 0; i<year2.length; i++) {
+        let row = year2[i];
+        console.log(`Part #${i+1}`)
+        for (let x = 0; x <row.length; x++) {
+            console.log(row[x])
+        }
+    }
